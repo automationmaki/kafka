@@ -2,11 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d08a71ca-0450-4387-8ed8-6d3fe77959e5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/kafka-basics/kafka-basics.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-basics/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-producer-twitter/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/automationmaki/twitter/TwitterProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/automationmaki/twitter/TwitterProducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/automationmaki/kafka/tutorial1/ConsumerDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-basics/src/main/java/automationmaki/kafka/tutorial1/ConsumerDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/automationmaki/kafka/tutorial1/ConsumerDemoAssignSeek.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-basics/src/main/java/automationmaki/kafka/tutorial1/ConsumerDemoAssignSeek.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/automationmaki/kafka/tutorial1/ConsumerDemoGroups.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-basics/src/main/java/automationmaki/kafka/tutorial1/ConsumerDemoGroups.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/automationmaki/kafka/tutorial1/ConsumerDemoWithThreads.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-basics/src/main/java/automationmaki/kafka/tutorial1/ConsumerDemoWithThreads.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/automationmaki/kafka/tutorial1/ProducerDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-basics/src/main/java/automationmaki/kafka/tutorial1/ProducerDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/automationmaki/kafka/tutorial1/ProducerDemoKeys.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-basics/src/main/java/automationmaki/kafka/tutorial1/ProducerDemoKeys.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/automationmaki/kafka/tutorial1/ProducerDemoWithCallBack.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-basics/src/main/java/automationmaki/kafka/tutorial1/ProducerDemoWithCallBack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/automationmaki/twitter/TwitterProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-producer-twitter/src/main/java/automationmaki/twitter/TwitterProducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/github/automationmaki/twitter/TwitterProducer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/github/automationmaki/twitter/TwitterProducer.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/kafka-basics/target/" />
+    <ignored path="$PROJECT_DIR$/kafka-producer-twitter/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,107 +33,57 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/github/automationmaki/twitter/TwitterProducer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="135" column="136" lean-forward="true" selection-start-line="135" selection-start-column="136" selection-end-line="135" selection-end-column="136" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kafka-basics/src/main/java/automationmaki/kafka/tutorial1/ProducerDemoKeys.java">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/github/automationmaki/kafka/tutorial1/ProducerDemo.java">
+        <entry file="file://$PROJECT_DIR$/kafka-producer-twitter/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="20" column="90" selection-start-line="11" selection-start-column="8" selection-end-line="20" selection-end-column="95" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="512">
+              <caret line="35" column="19" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
             </state>
           </provider>
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/github/automationmaki/kafka/tutorial1/ProducerDemoKeys.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="41" column="30" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/github/automationmaki/kafka/tutorial1/ProducerDemoWithCallBack.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="27" column="107" selection-start-line="27" selection-start-column="107" selection-end-line="27" selection-end-column="107" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/github/automationmaki/kafka/tutorial1/ConsumerDemo.java">
+        <entry file="file://$PROJECT_DIR$/kafka-basics/src/main/java/automationmaki/kafka/tutorial1/ConsumerDemo.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
-              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/kafka-producer-twitter/src/main/java/automationmaki/twitter/TwitterProducer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/github/automationmaki/kafka/tutorial1/ConsumerDemoAssignSeek.java">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="901">
-              <caret line="64" column="5" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
+            <state relative-caret-position="393">
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
             </state>
           </provider>
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/github/automationmaki/kafka/tutorial1/ConsumerDemoWithThreads.java">
+        <entry file="file://$PROJECT_DIR$/kafka-basics/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1751">
-              <caret line="118" selection-start-line="118" selection-end-line="118" />
-              <folding>
-                <element signature="e#719#720#0" expanded="true" />
-                <element signature="e#770#771#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="376">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk-11.0.3/lib/src.zip!/java.base/java/lang/Runnable.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="748">
-              <caret line="67" column="25" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk-11.0.3/lib/src.zip!/java.base/java/lang/Thread.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="13175">
-              <caret line="833" column="19" selection-start-line="833" selection-start-column="19" selection-end-line="833" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/github/automationmaki/kafka/tutorial1/ConsumerDemoGroups.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="46" column="5" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
-            </state>
-          </provider>
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
         </entry>
       </file>
     </leaf>
@@ -143,8 +108,12 @@
         <option value="$PROJECT_DIR$/src/main/java/com/github/automationmaki/kafka/tutorial1/ConsumerDemoGroups.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/automationmaki/kafka/tutorial1/ConsumerDemoWithThreads.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/automationmaki/kafka/tutorial1/ConsumerDemoAssignSeek.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/automationmaki/twitter/TwitterProducer.java" />
+        <option value="$PROJECT_DIR$/kafka-basics/src/main/java/automationmaki/twitter/TwitterProducer.java" />
+        <option value="$PROJECT_DIR$/kafka-producer-twitter/src/main/java/automationmaki/twitter/TwitterProducer.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/kafka-basics/pom.xml" />
+        <option value="$PROJECT_DIR$/kafka-producer-twitter/pom.xml" />
       </list>
     </option>
   </component>
@@ -162,17 +131,6 @@
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="kafka" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="kafka" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="kafka" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-          <item name="org.apache.kafka:kafka-clients:2.0.0" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-        </path>
       </expand>
       <select />
     </treeState>
@@ -189,6 +147,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -199,41 +158,77 @@
             <path>
               <item name="kafka" type="b2602c69:ProjectViewProjectNode" />
               <item name="кафка" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka-basics" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kafka" type="b2602c69:ProjectViewProjectNode" />
+              <item name="кафка" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka-basics" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="kafka" type="b2602c69:ProjectViewProjectNode" />
               <item name="кафка" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kafka" type="b2602c69:ProjectViewProjectNode" />
-              <item name="кафка" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kafka" type="b2602c69:ProjectViewProjectNode" />
-              <item name="кафка" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka-basics" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="automationmaki" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="kafka" type="b2602c69:ProjectViewProjectNode" />
               <item name="кафка" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka-basics" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="automationmaki" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kafka" type="b2602c69:ProjectViewProjectNode" />
+              <item name="кафка" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka-basics" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="tutorial1" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="kafka" type="b2602c69:ProjectViewProjectNode" />
               <item name="кафка" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka-producer-twitter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kafka" type="b2602c69:ProjectViewProjectNode" />
+              <item name="кафка" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka-producer-twitter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kafka" type="b2602c69:ProjectViewProjectNode" />
+              <item name="кафка" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka-producer-twitter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kafka" type="b2602c69:ProjectViewProjectNode" />
+              <item name="кафка" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka-producer-twitter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kafka" type="b2602c69:ProjectViewProjectNode" />
+              <item name="кафка" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka-producer-twitter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="automationmaki" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kafka" type="b2602c69:ProjectViewProjectNode" />
+              <item name="кафка" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka-producer-twitter" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -249,15 +244,19 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/kafka-producer-twitter/src/main/java" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.github.automationmaki.kafka.tutorial1" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\admin\Desktop\кафка\kafka-producer-twitter\src\main\java" />
+      <recent name="C:\Users\admin\Desktop\кафка\kafka-basics\src\main\java" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -272,13 +271,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TwitterProducer">
-    <configuration name="ConsumerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.github.automationmaki.kafka.tutorial1.ConsumerDemo" />
-      <module name="кафка" />
+  <component name="RunManager" selected="Application.TwitterProducer (1)">
+    <configuration name="ConsumerDemo (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="automationmaki.kafka.tutorial1.ConsumerDemo" />
+      <module name="kafka-basics" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.github.automationmaki.kafka.tutorial1.*" />
+          <option name="PATTERN" value="automationmaki.kafka.tutorial1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -299,12 +298,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConsumerDemoWithThreads" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.github.automationmaki.kafka.tutorial1.ConsumerDemoWithThreads" />
-      <module name="кафка" />
+    <configuration name="ProducerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="automationmaki.kafka.tutorial1.ProducerDemo" />
+      <module name="kafka-basics" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.github.automationmaki.kafka.tutorial1.*" />
+          <option name="PATTERN" value="automationmaki.kafka.tutorial1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -312,12 +311,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProducerDemoKeys" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.github.automationmaki.kafka.tutorial1.ProducerDemoKeys" />
-      <module name="кафка" />
+    <configuration name="TwitterProducer (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="automationmaki.twitter.TwitterProducer" />
+      <module name="kafka-producer-twitter" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.github.automationmaki.kafka.tutorial1.*" />
+          <option name="PATTERN" value="automationmaki.twitter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -340,11 +339,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TwitterProducer (1)" />
+        <item itemvalue="Application.ProducerDemo" />
+        <item itemvalue="Application.ConsumerDemo (1)" />
         <item itemvalue="Application.TwitterProducer" />
         <item itemvalue="Application.ConsumerDemoAssignSeek" />
-        <item itemvalue="Application.ConsumerDemoWithThreads" />
-        <item itemvalue="Application.ConsumerDemo" />
-        <item itemvalue="Application.ProducerDemoKeys" />
       </list>
     </recent_temporary>
   </component>
@@ -364,7 +363,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49919224" visible="true" weight="0.26599148" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49919224" visible="true" weight="0.26865673" />
       <window_info id="Structure" order="1" sideWeight="0.50080776" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -373,7 +372,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -407,18 +406,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="36" column="28" selection-start-line="36" selection-start-column="28" selection-end-line="36" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/github/automationmaki/twitter/TwitterProducer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="135" column="136" lean-forward="true" selection-start-line="135" selection-start-column="136" selection-end-line="135" selection-end-column="136" />
+        <state relative-caret-position="367">
+          <caret line="32" column="90" selection-start-line="32" selection-start-column="90" selection-end-line="32" selection-end-column="90" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -495,6 +486,86 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="612">
           <caret line="46" column="5" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kafka-basics/src/main/java/automationmaki/kafka/tutorial1/ConsumerDemoWithThreads.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kafka-basics/src/main/java/automationmaki/kafka/tutorial1/ProducerDemo.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kafka-basics/src/main/java/automationmaki/kafka/tutorial1/ConsumerDemoGroups.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kafka-basics/src/main/java/automationmaki/kafka/tutorial1/ProducerDemoWithCallBack.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kafka-basics/src/main/java/automationmaki/kafka/tutorial1/ConsumerDemoAssignSeek.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kafka-basics/src/main/java/automationmaki/twitter/TwitterProducer.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kafka-basics/src/main/java/automationmaki/kafka/tutorial1/ProducerDemoKeys.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kafka-producer-twitter/src/main/java/automationmaki/kafka/tutorial1/ConsumerDemoWithThreads.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kafka-producer-twitter/src/main/java/automationmaki/kafka/tutorial1/ProducerDemo.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kafka-producer-twitter/src/main/java/automationmaki/kafka/tutorial1/ConsumerDemoGroups.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kafka-producer-twitter/src/main/java/automationmaki/kafka/tutorial1/ProducerDemoWithCallBack.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kafka-producer-twitter/src/main/java/automationmaki/kafka/tutorial1/ConsumerDemo.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kafka-producer-twitter/src/main/java/automationmaki/kafka/tutorial1/ConsumerDemoAssignSeek.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kafka-producer-twitter/src/main/java/automationmaki/kafka/tutorial1/ProducerDemoKeys.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kafka-basics/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kafka-producer-twitter/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="512">
+          <caret line="35" column="19" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kafka-basics/src/main/java/automationmaki/kafka/tutorial1/ConsumerDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kafka-producer-twitter/src/main/java/automationmaki/twitter/TwitterProducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
         </state>
       </provider>
     </entry>
